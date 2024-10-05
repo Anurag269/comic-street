@@ -1,0 +1,180 @@
+.heading-about{
+    text-align: left;
+    
+font-weight: bold;
+font: normal normal 900 40px/72px Londrina Solid;
+letter-spacing: 1.92px;
+color: #2F2800;
+opacity: 1;
+padding-left:80px
+}
+.context-about{
+    width: 523px;
+    padding-left: 80px;
+
+text-align: left;
+font: normal normal normal 18px/24px Open Sans;
+letter-spacing: 0px;
+color: #2F2800;
+opacity: 1;
+
+
+}
+
+.grid-item p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  background: #191200 ;
+  border-radius: 20px;
+  opacity: 1;
+  width: 216px;
+  height: 216px;
+}
+
+.hover-text  p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:24px;
+  text-align: left;
+  font: normal normal normal 16px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;/* Align text to the top left */
+}
+       
+
+.context{
+    
+    padding-top:30px ;
+    width: 523px;
+    padding-left: 80px;
+
+text-align: left;
+font: normal normal normal 18px/24px Open Sans;
+letter-spacing: 0px;
+color: #2F2800;
+opacity: 1;
+}
+.col-md-6{
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.community-image{
+width: 604px;
+height: 230px;
+
+opacity: 1;
+}
+.initiatives{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top:48px;
+}
+.image-section{
+    padding-right:80px;
+    padding-left: 80px;
+}/* Resetting Margins & Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .comic-header{
+    padding-top: 80px;
+  }
+  /* Body Styling */
+  
+  
+
+  
+  .highlight {
+    color: #f1c40f;
+    font-weight: bold;
+  }
+  
+  
+  
+  .community-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    color: #222;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .highlight {
+    color: #f1c40f;
+    font-weight: bold;
+  }
+  
+  .initiatives {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    gap: 32px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    width: 216px;
+    height: 216px;
+    border: 2px solid #F0F2F5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center; /* Horizontally centers the icon */
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  
+
+  
+  

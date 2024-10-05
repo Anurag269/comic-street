@@ -1,0 +1,47 @@
+.header-toolbar {
+  background: #191200 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 80px;
+    padding: 0 20px;
+  
+   
+  
+    .spacer {
+      flex: 1 1 auto;
+    }
+  
+    .header-right {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+  
+      a {
+        background: #191200 0% 0% no-repeat padding-box;
+        text-align: right;
+        font: normal normal normal 16px/20px Open Sans;
+        letter-spacing: 0px;
+        color: #A3A3A3;
+        opacity: 1;
+      }
+  
+      button {
+        text-align: right;
+        font: normal normal normal 16px/20px Open Sans;
+        letter-spacing: 0px;
+        color: #A3A3A3;
+        opacity: 1;
+      }
+    }
+  }
+ 
+  
+  img.half-logo {
+    position: absolute;
+    top: 10%; /* This will push the image halfway down */
+    left: 20px; /* Adjust the horizontal placement */
+    transform: translateY(-50%); /* Ensures the logo is centered at the halfway point */
+    width: 140px;
+    height: 124px;
+    left: 80px;
+    opacity: 1;
+  }

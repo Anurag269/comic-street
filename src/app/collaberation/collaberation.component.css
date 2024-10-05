@@ -1,0 +1,178 @@
+/* General Styles */
+.sponsor-collaborations-section {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    padding-left: 80px;
+  }
+  
+  .container {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+  
+  /* Sponsors and Collaborations */
+  .sponsors-section, .collaborations-section {
+    text-align: center;
+  }
+  
+.content{
+padding-top: 163px;
+}
+
+  h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    color: #4D3623;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Spacing between items */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add padding around the grid */
+}
+
+.logos img {
+    max-width: 100px; /* Adjust size for logos */
+    width: 100%; /* Ensure responsiveness */
+    height: auto;
+}
+  
+  /* Divider */
+  .divider {
+    width: 1px;
+    background-color: #4D3623;
+
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Volunteer Registration */
+  .volunteer-section {
+    height: 248px;
+    background: transparent url('../../assets/images/Group\ 20261.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1206px;
+    padding-left: 48px;
+    padding-top: 40px   ;
+    padding-right: 48px;
+ 
+  }
+  .register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .volunterr{
+    text-align: left;
+font: normal normal 900 40px/72px Londrina Solid;
+letter-spacing: 1.92px;
+color: #2F2800;
+opacity: 1;
+  }
+  .p-text{
+    text-align: left;
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #2F2800;
+    opacity: 1;
+    width: 901px;
+height: 50px;
+  }
+  .headnew{
+    text-align: left;
+font: normal normal 900 40px/36px Londrina Solid;
+letter-spacing: 1.92px;
+color: #2F2800;
+opacity: 1;
+padding-top: 72px;
+  }
+  
+  /* .volunteer-content {
+    position: relative;
+  } */
+  
+  h3 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 40px;
+    color: #4D3623;
+    display: inline-block;
+  }
+  
+  .volunteer-section p {
+    font-family: Arial, sans-serif;
+    color: #4D3623;
+  }
+  
+  .register-btn {
+    background: #2F2800 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    color: #FFFFFF;
+opacity: 1;
+width: 122px;
+height: 44px;
+padding-left: 24px;
+padding-right: 24px;
+padding-top:10px;
+padding-bottom: 10px;
+  }
+  
+  .register-btn:hover {
+    background-color: #3b2918;
+  }
+  
+  /* Volunteer Strip */
+  .volunteer-strip {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 18px;
+  }
+  
+  .volunteer-strip span {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  img.half-logo {
+    position: absolute;
+    left: 40%; /* Move to the center horizontally */
+    transform: translate(-50%, -50%); /* Ensures the logo is centered */
+    width: 140px; /* Adjust the size */
+    height: auto; /* Keep aspect ratio */
+    opacity: 1;
+    top:44%
+  }
+  
+  /* Responsive */
+  @media only screen and (max-width: 768px) {
+    .logos img {
+      width: 70px; /* Adjust size for smaller screens */
+    }
+  
+    .register-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    h3 {
+      font-size: 30px;
+    }
+  
+    .volunteer-strip {
+      font-size: 14px;
+    }
+  }
+  
